@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/pf-agora-sans-pro-medium" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>Space App</title>
+</head>
+
+<body id="StartPage">
+
+    <section class="section_1">
+
+        <div class="container">
+            <header class="header">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 col-xs-12">
+                        <nav class="header__navigation">
+                            <ul class="header__list">
+                                <li>Главная</li>
+                                <li>Продукты</li>
+                                <li>Кейсы</li>
+                                <li>Экспертное мнение</li>
+                                <li>Контакты</li>
+                            </ul>
+                            <button class="button">Запросить презентацию</button>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="header_1">
+                <img src="img/Group102.png" alt="Group102" width="452px" height="80px">
+            </div>
+            <div class="header_2">
+                <h1>AI-Driven Analytics Platform</h1>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="header_2__blocks">
+                <div class="row">
+                    <div class="col-xl-6 col-md-3 col-xs-12">
+                        <div class="block1">
+                            <img src="img/pic1.png" alt="pic1" width="93px" height="93px">
+                            <h3>Обработка данных</h3>
+                            <p>Мы помогаем клиентам подобрать необходимые источники данных
+                                (через Pop UP нужно показать логотипы: Все ОФД, Nielsen,
+                                Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим
+                                их к единому формату и классификатору. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-md-3 col-xs-12">
+                        <div class="block2">
+                            <img src="img/pic2.png" alt="pic2" width="73px" height="73px">
+                            <h3>Анализ</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-xs-12">
+                        <div class="block3">
+                            <img src="img/pic3.png" alt="pic3" width="73px" height="73px">
+                            <h3>Визуализация</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-md-3 col-xs-12">
+                        <div class="block4">
+                            <img src="img/pic4.png" alt="pic4" width="73px" height="73px">
+                            <h3>Интерпретация</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <svg width="1920" height="160" viewBox="0 0 1920 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 44.6667L64 64C128 83.3333 256 121.667 384 108.667C512 96 640 32 768 16C896 0 1024 32 1152 32C1280 32 1408 0 1536 0C1664 0 1792 32 1856 48L1920 64V160H1856C1792 160 1664 160 1536 160C1408 160 1280 160 1152 160C1024 160 896 160 768 160C640 160 512 160 384 160C256 160 128 160 64 160H0V44.6667Z"
+                fill="white" />
+        </svg>
+
+    </section>
+
+    <section class="section_2">
+        <div class="container_grid">
+            <div class="grid_item">
+                <hr class="line" color="#E01E2E">
+                <h2 class="text">Промо-давление увеличивается</h2>
+                <div class="chart1">
+                    <canvas id="myChart" width="" height="200px"></canvas>
+                </div>
+                <button class="buttom_grid">Почему увеличивается?</button>
+            </div>
+            <div class="grid_item">
+                <hr class="line1" color="#E01E2E">
+                <h2 class="text1">80% данных не используется производителями</h2>
+                <div id="chart" class="chart2">
+                    <canvas id="myChart1" width="90" height="90"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section_3>
+        <div class="container">
+            <div class="head">
+                <hr class="head_line" color="#E01E2E">
+                <h2 class="head_text">Собираем и обрабатываем<br>гранулярные данные на уровне сети</h2>
+            </div>
+            <!-- HTML -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Слайд 1 -->
+                    <div class="swiper-slide">
+                        <img src="slide1.jpg" alt="Slide 1">
+                    </div>
+                    <!-- Слайд 2 -->
+                    <div class="swiper-slide">
+                        <img src="slide2.jpg" alt="Slide 2">
+                    </div>
+                    <!-- Слайд 3 -->
+                    <div class="swiper-slide">
+                        <img src="slide3.jpg" alt="Slide 3">
+                    </div>
+                    <!-- Добавьте дополнительные слайды по аналогии -->
+                </div>
+                <!-- Навигация (точки) -->
+                <div class="swiper-pagination-bullets"></div>
+            </div>
+
+
+        </div>
+    </section_3>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

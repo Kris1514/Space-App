@@ -1,0 +1,213 @@
+/* 
+font-family: 'PF Agora Sans Pro Medium', sans-serif;
+font-family: 'PF Agora Sans Pro', sans-serif;
+font-family: 'PF Agora Sans Pro XThin', sans-serif;
+font-family: 'PF Agora Sans Pro Thin', sans-serif;
+font-family: 'PF Agora Sans Pro Light', sans-serif;
+font-family: 'PF Agora Sans Pro Black', sans-serif;
+font-family: 'PF Agora Sans Pro UltraBlack', sans-serif;
+*/   
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'PF Agora Sans Pro', sans-serif;
+  }
+  
+  button {
+      cursor: pointer;
+  }  
+.section_1 {
+    background-image: url('../img/Artboard@7x1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    svg {
+        margin-bottom: -25px;
+        width: 100%;
+    }
+} 
+.header__navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}  
+.header__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    li{
+        padding-left: 40px;
+    }
+    li:first-child{
+        padding-left: 0px;
+}
+}    
+
+.button{
+    width: 320px;
+    height: 60px;
+    background-color: #E01E2E;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.header_1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+ }
+ .header_2 {
+    h1 {
+        font-family: 'PF Agora Sans Pro UltraBlack', sans-serif;
+        font-style: normal;
+        color: #fff;
+        font-size: 64px;
+        text-align: center;
+    }
+ }
+ .header_2__blocks {
+    display: flex;
+    justify-content: space-between;
+    h3, p{
+        color: #fff;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    img {
+        padding-bottom: 25px;
+    }
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+ }
+ .block1 {
+    padding: 25px;
+    h3 {
+        padding-bottom: 15px;
+    }
+    background-image: url('../img/background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+ }
+ .block2, .block3, .block4 {
+    background-color: rgba(196, 196, 196, 0.2);
+    backdrop-filter: blur(33px);
+    padding: 25px 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+ }
+
+
+.container_grid{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 5px;
+    padding-top: 50px;
+    hr {
+        display: grid;
+    }
+
+}
+.grid_item {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+}
+.line {
+    grid-column-start: 1; 
+    grid-column-end: 1; 
+    height: 8px;
+}
+.text {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    font-family: 'PF Agora Sans Pro UltraBlack', sans-serif;
+    font-size: 32px;
+    padding-top: 20px;
+}
+.chart1{
+    grid-column-start: 1; 
+    grid-column-end: 7; 
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.buttom_grid {
+    grid-column-start: 2;
+    grid-column-end: 6; 
+    height: 60px;
+    background-color: #E01E2E;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #E01E2E;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.line1 {
+    grid-column-start: 1; 
+    grid-column-end: 8; 
+    height: 8px;
+}
+.text1 {
+    grid-column-start: 7; 
+    grid-column-end: 12;
+    font-family: 'PF Agora Sans Pro UltraBlack', sans-serif;
+    font-size: 32px;
+}
+.chart2 {
+    grid-column-start: 7; 
+    grid-column-end: 14;
+}
+
+.head {
+    margin-top: 80px;
+}
+.head_line {
+    height: 8px;
+    width: 85px;
+}
+.head_text {
+    font-family: 'PF Agora Sans Pro UltraBlack', sans-serif;
+    font-size: 32px;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-pagination-bullets {
+    width: 50px;
+    height: 50px;
+  }
+  .swiper-pagination-bullets:root {
+    --swiper-navigation-size: 44px;
+    --swiper-theme-color: #E01E2E;
+  }
+  
